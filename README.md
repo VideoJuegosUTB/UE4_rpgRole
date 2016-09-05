@@ -7,8 +7,8 @@ Videojuego de Unreal Engine 4 del tipo rpg.
 La idea es conquistar territorio enemigo en modo multijugador o de un juagdor. Existen tres tipos de personajes: Guerrero, Cazador y Mago en dos bandos distintos. [Por continuar]
 
 # Tarea 1.[inicializar proyecto] Fecha:12/08/2016
+Inicializar proyecto
 
-## Inicializar proyecto
 # Crear interfaz de usuario:
 1. *Menú principal
     1. *Un Jagador
