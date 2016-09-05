@@ -1,0 +1,389 @@
+﻿Log file open, 09/04/16 19:04:19
+LogInit:Display: Running engine for game: RpgRole_w
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(206327729) SRandInit(206327730).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.063078
+LogInit: Version: 4.12.3-3013449+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3013449
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jun 14 2016 17:53:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.09.05-00.04.19:607][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.05-00.04.19:607][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.05-00.04.19:613][  0]LogInit: Computer: MASTERCAB
+[2016.09.05-00.04.19:613][  0]LogInit: User: espan000
+[2016.09.05-00.04.19:613][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.05-00.04.19:613][  0]LogInit: High frequency timer resolution =3.485722 MHz
+[2016.09.05-00.04.19:613][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.09.05-00.04.19:613][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.05-00.04.19:613][  0]LogMemory: Process Physical Memory: 188.20 MB used, 188.20 MB peak
+[2016.09.05-00.04.19:613][  0]LogMemory: Process Virtual Memory: 194.84 MB used, 194.84 MB peak
+[2016.09.05-00.04.19:613][  0]LogMemory: Physical Memory: 6516.87 MB used, 16326.20 MB total
+[2016.09.05-00.04.19:613][  0]LogMemory: Virtual Memory: 535.07 MB used, 134217728.00 MB total
+[2016.09.05-00.04.19:640][  0]LogTextLocalizationManager: No specific translations for ('es-CO') exist, so ('es') translations will be used.
+[2016.09.05-00.04.19:788][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.05-00.04.19:806][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 760' (Feature Level 11_0)
+[2016.09.05-00.04.19:806][  0]LogD3D11RHI:       1985/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.09.05-00.04.19:807][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.05-00.04.19:807][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.05-00.04.19:807][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.05-00.04.19:810][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.05-00.04.19:810][  0]LogD3D11RHI:     GPU DeviceId: 0x1187 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.05-00.04.19:810][  0]LogWindows: EnumDisplayDevices:
+[2016.09.05-00.04.19:810][  0]LogWindows:    0. 'NVIDIA GeForce GTX 760' (P:0 D:1)
+[2016.09.05-00.04.19:810][  0]LogWindows:    1. 'NVIDIA GeForce GTX 760' (P:1 D:1)
+[2016.09.05-00.04.19:810][  0]LogWindows:    2. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2016.09.05-00.04.19:810][  0]LogWindows:    3. 'NVIDIA GeForce GTX 760' (P:0 D:0)
+[2016.09.05-00.04.19:810][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.09.05-00.04.19:810][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 760
+[2016.09.05-00.04.19:810][  0]LogD3D11RHI:   Driver Version: 359.00 (internal:10.18.13.5900, unified:359.00)
+[2016.09.05-00.04.19:810][  0]LogD3D11RHI:      Driver Date: 11-13-2015
+[2016.09.05-00.04.19:810][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.05-00.04.19:818][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.05-00.04.20:222][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.09.05-00.04.20:222][  0]LogShaderCompilers: Guid format shader working directory is 29 characters bigger than the processId version (J:/Praticas/RpgRole_w/Intermediate/Shaders/WorkingDirectory/9988/).
+[2016.09.05-00.04.20:222][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/espan_000/AppData/Local/Temp/UnrealShaderWorkingDir/E46328904516396DA55026BDC6AE9496/'.
+[2016.09.05-00.04.20:222][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.05-00.04.20:931][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.05-00.04.20:937][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.05-00.04.20:943][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.05-00.04.20:949][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.05-00.04.20:955][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.05-00.04.20:961][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.05-00.04.20:966][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.05-00.04.20:972][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.05-00.04.20:978][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.05-00.04.20:984][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.05-00.04.20:990][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.05-00.04.21:001][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.05-00.04.21:001][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.05-00.04.21:002][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.05-00.04.21:020][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.05-00.04.21:025][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.05-00.04.21:031][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.05-00.04.21:036][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.05-00.04.21:042][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.05-00.04.21:042][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.05-00.04.21:078][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.05-00.04.21:113][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/espan_000/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.05-00.04.21:114][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/espan_000/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.05-00.04.21:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file J:/Praticas/RpgRole_w/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.05-00.04.21:114][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.05-00.04.21:114][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file J:/Praticas/RpgRole_w/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.05-00.04.21:114][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.05-00.04.21:126][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.05-00.04.21:138][  0]LogDerivedDataCache: Using Local data cache path C:/Users/espan_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.05-00.04.21:262][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.05-00.04.21:263][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.05-00.04.21:368][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.05-00.04.21:368][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.05-00.04.21:368][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.05-00.04.21:542][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2016.09.05-00.04.21:555][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.011944 seconds
+[2016.09.05-00.04.21:559][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.05-00.04.21:559][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.09.05-00.04.21:559][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.05-00.04.21:562][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.05-00.04.21:663][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.05-00.04.21:663][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.05-00.04.22:152][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.05-00.04.22:300][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.09.05-00.04.22:305][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.09.05-00.04.22:309][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.09.05-00.04.22:312][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.09.05-00.04.22:421][  0]LogEngine: Initializing Engine...
+[2016.09.05-00.04.22:422][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.05-00.04.22:422][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.05-00.04.22:517][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.05-00.04.22:522][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.05-00.04.22:528][  0]LogInit: FAudioDevice initialized.
+[2016.09.05-00.04.22:550][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/espan_000/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.05-00.04.22:553][  0]LogInit: Texture streaming: Enabled
+[2016.09.05-00.04.22:565][  0]LogInit: Transaction tracking system initialized
+[2016.09.05-00.04.22:574][  0]BlueprintLog: New page: Cargar el editor
+[2016.09.05-00.04.22:605][  0]LocalizationService: Información Localization service is disabled
+[2016.09.05-00.04.22:949][  0]LogConsoleResponse:Display: 
+[2016.09.05-00.04.23:021][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.05-00.04.23:021][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.05-00.04.23:067][  0]LogFileCache: Scanning file cache for directory 'J:/Praticas/RpgRole_w/Content/' took 0.01s
+[2016.09.05-00.04.23:067][  0]SourceControl: Información El control de código fuente está desactivado
+[2016.09.05-00.04.23:067][  0]Cmd: MAP LOAD FILE="J:/Praticas/RpgRole_w/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.05-00.04.23:068][  0]LightingResults: New page: Diseñar la iluminación
+[2016.09.05-00.04.23:069][  0]MapCheck: New page: Revisión del mapa
+[2016.09.05-00.04.23:069][  0]LightingResults: New page: Diseñar la iluminación
+[2016.09.05-00.04.23:349][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.05-00.04.23:355][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.05-00.04.23:355][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.05-00.04.23:378][  0]MapCheck: Información Map check complete: 0 Error(s), 0 Warning(s), took 23,013ms to complete.
+[2016.09.05-00.04.23:378][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.311
+[2016.09.05-00.04.23:494][  0]LogCollectionManager: Loaded 0 collections in 0.000691 seconds
+[2016.09.05-00.04.23:532][  0]LogFileCache: Scanning file cache for directory 'J:/Praticas/RpgRole_w/Saved/Collections/' took 0.01s
+[2016.09.05-00.04.23:532][  0]LogFileCache: Scanning file cache for directory 'J:/Praticas/RpgRole_w/Content/Developers/espan000/Collections/' took 0.01s
+[2016.09.05-00.04.23:532][  0]LogFileCache: Scanning file cache for directory 'J:/Praticas/RpgRole_w/Content/Collections/' took 0.01s
+[2016.09.05-00.04.23:532][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.09.05-00.04.23:538][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2047 classes and 369 folders.
+[2016.09.05-00.04.23:540][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.05-00.04.23:540][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.05-00.04.23:540][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.09.05-00.04.23:542][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.05-00.04.23:568][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.09.05-00.04.23:569][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.09.05-00.04.23:578][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.05-00.04.23:581][  0]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Class Ninguno.'
+[2016.09.05-00.04.23:605][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.09.05-00.04.23:606][  0]LogLoad: Full Startup: 4.44 seconds (BP compile: 0.05 seconds)
+[2016.09.05-00.04.23:606][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.05-00.04.23:606][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.05-00.04.23:614][  0]LogOcInput: OculusInput pre-init called
+[2016.09.05-00.04.23:632][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.05-00.04.23:961][  1]LogRenderer: Reallocating scene render targets to support 808x368 (Frame:2).
+[2016.09.05-00.04.23:961][  1]LogAssetRegistry: Asset discovery search completed in 2.4413 seconds
+[2016.09.05-00.04.23:961][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.09.05-00.04.23:961][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.09.05-00.04.29:942][143]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:63).
+[2016.09.05-00.06.09:676][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2016.09.05-00.15.31:929][665]LogLinker:Warning: No puede encontrar el archivo '/Game/Raiz/menuPrincipal/sistemaInterfaces'
+[2016.09.05-00.15.31:930][665]LogLinker:Warning: No puede encontrar el archivo '/Game/Raiz/menuPrincipal/sistemaInterfaces'
+[2016.09.05-00.15.31:930][665]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Object /Game/Raiz/menuPrincipal/sistemaInterfaces.sistemaInterfaces'
+[2016.09.05-00.15.33:196][817]LogLinker:Warning: No puede encontrar el archivo '/Game/Raiz/menuPrincipal/sistemaInterfaces'
+[2016.09.05-00.15.33:196][817]LogUObjectGlobals:Warning: Error al encontrar el objeto 'Object /Game/Raiz/menuPrincipal/sistemaInterfaces.sistemaInterfaces'
+[2016.09.05-00.16.06:221][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/SistemaInterfaces" FILE="J:/Praticas/RpgRole_w/Content/raiz/SistemaInterfaces.uasset" SILENT=true
+[2016.09.05-00.16.06:230][592]LogSavePackage: Save=5.67ms
+[2016.09.05-00.16.06:230][592]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/SistemaInterfacesDA29DBE6453E848FD717909DF4D7A85C.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/SistemaInterfaces.uasset'
+[2016.09.05-00.16.06:231][592]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/SistemaInterfaces.uasset
+[2016.09.05-00.16.09:291][929]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.09.05-00.16.09:775][929]LogTexture:Display: Generando texturas: TilePatine_N (BC5)
+[2016.09.05-00.16.09:838][929]LogTexture:Display: Generando texturas: TilePatine_D (AutoDXT)
+[2016.09.05-00.16.10:150][929]LogRenderer: Reallocating scene render targets to support 1208x720 (Frame:9230).
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SistemaInterfaces:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SKEL_SistemaInterfaces_C:DefaultSceneRoot' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SKEL_SistemaInterfaces_C:UserConstructionScript' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SKEL_SistemaInterfaces_C' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SistemaInterfaces_C:DefaultSceneRoot' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SistemaInterfaces_C:UserConstructionScript' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SistemaInterfaces_C' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SistemaInterfaces:EventGraph.K2Node_Event_0' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SistemaInterfaces:EventGraph.K2Node_Event_1' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:497][899]LogMetaData: Removing '/Game/raiz/menuPrincipal/SistemaInterfaces.SistemaInterfaces:EventGraph.K2Node_Event_2' ref from Metadata '/Game/raiz/SistemaInterfaces.PackageMetaData'
+[2016.09.05-00.19.55:518][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/menuPrincipal/SistemaInterfaces" FILE="J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/SistemaInterfaces.uasset" SILENT=true
+[2016.09.05-00.19.55:526][899]LogSavePackage: Save=5.36ms
+[2016.09.05-00.19.55:526][899]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/SistemaInterfacesD47102174A3F683817BBEF9AC1EC5664.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/SistemaInterfaces.uasset'
+[2016.09.05-00.19.55:527][899]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/SistemaInterfaces.uasset
+[2016.09.05-00.22.52:883][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/menuPrincipal/unJugador" FILE="J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/unJugador.uasset" SILENT=true
+[2016.09.05-00.22.52:890][888]LogSavePackage: Save=3.62ms
+[2016.09.05-00.22.52:890][888]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/unJugador3AABD4554EAEA7D3248C97B9616EBCB1.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/unJugador.uasset'
+[2016.09.05-00.22.52:892][888]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/unJugador.uasset
+[2016.09.05-00.22.52:898][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/menuPrincipal/personaje" FILE="J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/personaje.uasset" SILENT=true
+[2016.09.05-00.22.52:904][888]LogSavePackage: Save=3.30ms
+[2016.09.05-00.22.52:904][888]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/personajeF0193714473088795CE5A29391FEB993.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/personaje.uasset'
+[2016.09.05-00.22.52:905][888]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/personaje.uasset
+[2016.09.05-00.22.52:909][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/menuPrincipal/nuevaCampaña" FILE="J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/nuevaCampaña.uasset" SILENT=true
+[2016.09.05-00.22.52:914][888]LogSavePackage: Save=3.31ms
+[2016.09.05-00.22.52:914][888]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/nuevaCampañaDFD7A2E54BEC85FEF93760BBF00598CF.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/nuevaCampaña.uasset'
+[2016.09.05-00.22.52:915][888]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/nuevaCampaña.uasset
+[2016.09.05-00.22.52:917][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/menuPrincipal/Multijugador" FILE="J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/Multijugador.uasset" SILENT=true
+[2016.09.05-00.22.52:922][888]LogSavePackage: Save=3.32ms
+[2016.09.05-00.22.52:922][888]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/Multijugador597D960141E02BA2DB1495BB0588C8AF.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/Multijugador.uasset'
+[2016.09.05-00.22.52:924][888]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/Multijugador.uasset
+[2016.09.05-00.22.52:926][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/menuPrincipal/batalla" FILE="J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/batalla.uasset" SILENT=true
+[2016.09.05-00.22.52:931][888]LogSavePackage: Save=3.20ms
+[2016.09.05-00.22.52:931][888]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/batallaF06AB8AD4654FF277C2395A158E7D6A9.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/batalla.uasset'
+[2016.09.05-00.22.52:932][888]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/batalla.uasset
+[2016.09.05-00.22.52:933][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/menuPrincipal/ajustes" FILE="J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/ajustes.uasset" SILENT=true
+[2016.09.05-00.22.52:937][888]LogSavePackage: Save=2.99ms
+[2016.09.05-00.22.52:937][888]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/ajustesADA8B6204CDC646496B74CA54D7C6CA3.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/ajustes.uasset'
+[2016.09.05-00.22.52:938][888]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/ajustes.uasset
+[2016.09.05-00.22.52:940][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/menuPrincipal/menuPrincipal" FILE="J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/menuPrincipal.uasset" SILENT=true
+[2016.09.05-00.22.52:945][888]LogSavePackage: Save=3.13ms
+[2016.09.05-00.22.52:945][888]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/menuPrincipal628B3386424D0D2784A90AA1DE578369.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/menuPrincipal.uasset'
+[2016.09.05-00.22.52:946][888]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/menuPrincipal/menuPrincipal.uasset
+[2016.09.05-00.26.20:480][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/funciones/interfaces" FILE="J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset" SILENT=true
+[2016.09.05-00.26.20:481][221]LogSavePackage: Save=1.00ms
+[2016.09.05-00.26.20:481][221]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/interfacesD9FB19AB41068968CB8928B4C3385F4B.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset'
+[2016.09.05-00.26.20:484][221]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset
+[2016.09.05-00.26.46:512][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/estrcuctura/personaje" FILE="J:/Praticas/RpgRole_w/Content/raiz/estrcuctura/personaje.uasset" SILENT=true
+[2016.09.05-00.26.46:513][ 46]LogSavePackage: Save=0.89ms
+[2016.09.05-00.26.46:513][ 46]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/personaje067A9175464E8A857DAFC38BA20EC7DA.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/estrcuctura/personaje.uasset'
+[2016.09.05-00.26.46:514][ 46]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/estrcuctura/personaje.uasset
+[2016.09.05-00.27.50:678][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/objetos/btnLink" FILE="J:/Praticas/RpgRole_w/Content/raiz/objetos/btnLink.uasset" SILENT=true
+[2016.09.05-00.27.50:685][794]LogSavePackage: Save=3.39ms
+[2016.09.05-00.27.50:685][794]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/btnLink89AF0588432BEDC75974AB9CD06090DB.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/objetos/btnLink.uasset'
+[2016.09.05-00.27.50:686][794]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/objetos/btnLink.uasset
+[2016.09.05-00.29.19:952][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2618.EdGraphPin_82''
+[2016.09.05-00.29.19:953][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2618.EdGraphPin_84''
+[2016.09.05-00.29.19:953][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1346.EdGraphPin_40''
+[2016.09.05-00.29.19:953][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3060.EdGraphPin_86''
+[2016.09.05-00.29.19:953][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3061.EdGraphPin_94''
+[2016.09.05-00.29.19:954][809]LogLinker:Warning: No puede encontrar el archivo '/Game/Raiz/funcionesUtiles/interfaces'
+[2016.09.05-00.29.19:954][809]LogLinker: No puede encontrar el archivo '/Game/Raiz/funcionesUtiles/interfaces'
+[2016.09.05-00.29.19:954][809]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Raiz/funcionesUtiles/interfaces.interfaces_C')'
+[2016.09.05-00.29.19:954][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Self_153.EdGraphPin_52''
+[2016.09.05-00.29.19:954][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1441.EdGraphPin_50''
+[2016.09.05-00.29.19:955][809]LogLinker: No puede encontrar el archivo '/Game/Raiz/funcionesUtiles/interfaces'
+[2016.09.05-00.29.19:955][809]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Raiz/funcionesUtiles/interfaces.interfaces_C',MemberName="fnU_visivilidad",MemberGuid=F65FB3E348C2CF49012327AF1024E2E3)'
+[2016.09.05-00.29.19:955][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3060.EdGraphPin_90''
+[2016.09.05-00.29.19:955][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3060.EdGraphPin_89''
+[2016.09.05-00.29.19:955][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3061.EdGraphPin_97''
+[2016.09.05-00.29.19:955][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3060.EdGraphPin_87''
+[2016.09.05-00.29.19:955][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3261.EdGraphPin_63''
+[2016.09.05-00.29.19:956][809]LogLinker: No puede encontrar el archivo '/Game/Raiz/funcionesUtiles/interfaces'
+[2016.09.05-00.29.19:956][809]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Raiz/funcionesUtiles/interfaces.interfaces_C')'
+[2016.09.05-00.29.19:956][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1443.EdGraphPin_61''
+[2016.09.05-00.29.19:956][809]LogLinker: No puede encontrar el archivo '/Game/Raiz/funcionesUtiles/interfaces'
+[2016.09.05-00.29.19:956][809]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/Raiz/funcionesUtiles/interfaces.interfaces_C',MemberName="fnU_visivilidad",MemberGuid=F65FB3E348C2CF49012327AF1024E2E3)'
+[2016.09.05-00.29.19:956][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3061.EdGraphPin_98''
+[2016.09.05-00.29.19:957][809]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3061.EdGraphPin_95''
+[2016.09.05-00.29.19:961][809]LogBlueprint:Warning: [btnLink] CreatePinForVariable: 'text' variable not found. Base class was probably changed.
+[2016.09.05-00.29.19:961][809]LogBlueprint:Warning: [btnLink] CreatePinForVariable: 'Titulo' variable not found. Base class was probably changed.
+[2016.09.05-00.29.19:961][809]LogBlueprint:Warning: [btnLink] CreatePinForVariable: 'Widget Residente' variable not found. Base class was probably changed.
+[2016.09.05-00.29.19:962][809]LogBlueprint:Warning: [btnLink] CreatePinForVariable: 'Widget A mostrar' variable not found. Base class was probably changed.
+[2016.09.05-00.29.27:466][685]LogEditorTransaction: Undo Paste clipboard contents
+[2016.09.05-00.29.27:467][685]LogBlueprint:Warning: Loaded invalid component bound event in node /Game/raiz/objetos/btnLink.btnLink:EventGraph.K2Node_ComponentBoundEvent_711.
+[2016.09.05-00.29.50:192][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/objetos/btnLink" FILE="J:/Praticas/RpgRole_w/Content/raiz/objetos/btnLink.uasset" SILENT=true
+[2016.09.05-00.29.50:196][459]LogSavePackage: Save=2.76ms
+[2016.09.05-00.29.50:196][459]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/btnLink2D9B240C4FF39D738904C38F289D827F.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/objetos/btnLink.uasset'
+[2016.09.05-00.29.50:224][459]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/objetos/btnLink.uasset
+[2016.09.05-00.30.28:603][509]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.016
+[2016.09.05-00.30.28:604][509]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/raiz/funciones/interfaces] ([1] browsable assets)...
+[2016.09.05-00.30.28:604][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/raiz/funciones/interfaces]
+[2016.09.05-00.30.28:604][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/funciones/interfaces" FILE="J:/Praticas/RpgRole_w/Saved/Autosaves/Game/raiz/funciones/interfaces_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.09.05-00.30.28:608][509]LogSavePackage: Save=2.52ms
+[2016.09.05-00.30.28:608][509]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/interfaces_Auto15AD344554F7F4E6DD7B4B1A2C0841898.tmp' to 'J:/Praticas/RpgRole_w/Saved/Autosaves/Game/raiz/funciones/interfaces_Auto1.uasset'
+[2016.09.05-00.30.28:608][509]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Saved/Autosaves/Game/raiz/funciones/interfaces_Auto1.uasset
+[2016.09.05-00.30.28:609][509]LogFileHelpers: Auto-saving content packages took 0.005
+[2016.09.05-00.30.55:972][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_6''
+[2016.09.05-00.30.55:972][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2360 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_CallFunction_2360
+[2016.09.05-00.30.55:973][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2360.EdGraphPin_85''
+[2016.09.05-00.30.55:973][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_7''
+[2016.09.05-00.30.55:973][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2360 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_CallFunction_2360
+[2016.09.05-00.30.55:973][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2360.EdGraphPin_87''
+[2016.09.05-00.30.55:973][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_69''
+[2016.09.05-00.30.55:973][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2402 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_CallFunction_2402
+[2016.09.05-00.30.55:973][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2402.EdGraphPin_33''
+[2016.09.05-00.30.55:973][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2402 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_CallFunction_2402
+[2016.09.05-00.30.55:973][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2402.EdGraphPin_29''
+[2016.09.05-00.30.55:973][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2361 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_CallFunction_2361
+[2016.09.05-00.30.55:973][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2361.EdGraphPin_91''
+[2016.09.05-00.30.55:973][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary.RenderToTextureFunctionLibrary:Array to HLSL Int Array.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_FunctionResult_1
+[2016.09.05-00.30.55:973][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionResult_1.EdGraphPin_20''
+[2016.09.05-00.30.55:974][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2402 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_CallFunction_2402
+[2016.09.05-00.30.55:974][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2402.EdGraphPin_30''
+[2016.09.05-00.30.55:974][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary.RenderToTextureFunctionLibrary:Array to HLSL Int Array.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_FunctionResult_1
+[2016.09.05-00.30.55:974][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionResult_1.EdGraphPin_19''
+[2016.09.05-00.30.55:974][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2.EdGraphPin_72''
+[2016.09.05-00.30.55:974][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_8''
+[2016.09.05-00.30.55:974][793]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2402 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:Función nueva_0.K2Node_CallFunction_2402
+[2016.09.05-00.30.55:974][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2402.EdGraphPin_35''
+[2016.09.05-00.30.55:974][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_9''
+[2016.09.05-00.30.55:975][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_9''
+[2016.09.05-00.30.55:975][793]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_10''
+[2016.09.05-00.33.45:960][423]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_1''
+[2016.09.05-00.33.45:960][423]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_590.EdGraphPin_105''
+[2016.09.05-00.33.45:961][423]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_0''
+[2016.09.05-00.33.45:961][423]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_590.EdGraphPin_101''
+[2016.09.05-00.33.45:961][423]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_2''
+[2016.09.05-00.33.45:961][423]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_3''
+[2016.09.05-00.33.45:961][423]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_4''
+[2016.09.05-00.34.16:056][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/funciones/interfaces" FILE="J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset" SILENT=true
+[2016.09.05-00.34.16:066][998]LogSavePackage: Save=9.34ms
+[2016.09.05-00.34.16:066][998]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/interfaces50AF9E90432EE02D0A9D759E461195AD.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset'
+[2016.09.05-00.34.16:080][998]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset
+[2016.09.05-00.34.17:542][171]BlueprintLog: New page: Compilar interfaces
+[2016.09.05-00.34.17:604][171]BlueprintEditorCompileResults: Información [1798,44] Compile of interfaces successful! [in 61 ms] (/Game/raiz/funciones/interfaces.interfaces)
+[2016.09.05-00.36.49:386][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/funciones/interfaces" FILE="J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset" SILENT=true
+[2016.09.05-00.36.49:398][ 68]LogSavePackage: Save=10.48ms
+[2016.09.05-00.36.49:398][ 68]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/interfacesDAC16D544D2D625B88FB18B30C7D6C9B.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset'
+[2016.09.05-00.36.49:412][ 68]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset
+[2016.09.05-00.36.51:479][311]BlueprintLog: New page: Compilar interfaces
+[2016.09.05-00.36.51:541][311]BlueprintEditorCompileResults: Información [1952,37] Compile of interfaces successful! [in 62 ms] (/Game/raiz/funciones/interfaces.interfaces)
+[2016.09.05-00.43.31:833][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.015
+[2016.09.05-00.43.31:834][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/raiz/funciones/interfaces] ([1] browsable assets)...
+[2016.09.05-00.43.31:834][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/raiz/funciones/interfaces]
+[2016.09.05-00.43.31:834][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/funciones/interfaces" FILE="J:/Praticas/RpgRole_w/Saved/Autosaves/Game/raiz/funciones/interfaces_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.09.05-00.43.31:849][909]LogSavePackage: Save=12.88ms
+[2016.09.05-00.43.31:849][909]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/interfaces_Auto2503BB0614932529D0831408267A0BE7F.tmp' to 'J:/Praticas/RpgRole_w/Saved/Autosaves/Game/raiz/funciones/interfaces_Auto2.uasset'
+[2016.09.05-00.43.31:849][909]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Saved/Autosaves/Game/raiz/funciones/interfaces_Auto2.uasset
+[2016.09.05-00.43.31:849][909]LogFileHelpers: Auto-saving content packages took 0.016
+[2016.09.05-00.43.39:412][959]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_interfaces_C_119' or package '/Engine/Transient'.
+[2016.09.05-00.43.39:412][959]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_CallFunction_2521' or package '/Engine/Transient'.
+[2016.09.05-00.43.39:412][959]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_interfaces_C_120' or package '/Engine/Transient'.
+[2016.09.05-00.43.39:412][959]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_interfaces_C_0' or package '/Engine/Transient'.
+[2016.09.05-00.43.39:412][959]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_interfaces_C_1' or package '/Engine/Transient'.
+[2016.09.05-00.44.50:662][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/funciones/funciones" FILE="J:/Praticas/RpgRole_w/Content/raiz/funciones/funciones.uasset" SILENT=true
+[2016.09.05-00.44.50:664][981]LogSavePackage: Save=1.87ms
+[2016.09.05-00.44.50:664][981]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/funciones690853B144FE24CC0541ADB0B8818142.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/funciones/funciones.uasset'
+[2016.09.05-00.44.50:665][981]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/funciones/funciones.uasset
+[2016.09.05-00.45.11:176][186]LogMetaData: Removing '/Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_FunctionEntry_0' ref from Metadata '/Game/raiz/funciones/funciones.PackageMetaData'
+[2016.09.05-00.45.11:194][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/raiz/funciones/interfaces" FILE="J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset" SILENT=true
+[2016.09.05-00.45.11:196][186]LogSavePackage: Save=1.80ms
+[2016.09.05-00.45.11:196][186]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/interfaces977EFAB840B5F2DBC7BE899D12E1B20B.tmp' to 'J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset'
+[2016.09.05-00.45.11:197][186]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/raiz/funciones/interfaces.uasset
+[2016.09.05-00.46.07:049][662]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_1''
+[2016.09.05-00.46.07:050][662]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_590.EdGraphPin_105''
+[2016.09.05-00.46.07:050][662]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_0''
+[2016.09.05-00.46.07:050][662]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_590.EdGraphPin_101''
+[2016.09.05-00.46.07:050][662]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_2''
+[2016.09.05-00.46.07:050][662]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_3''
+[2016.09.05-00.46.07:050][662]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_74.EdGraphPin_4''
+[2016.09.05-00.47.17:819][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_6''
+[2016.09.05-00.47.17:819][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2360 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_CallFunction_2360
+[2016.09.05-00.47.17:819][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2360.EdGraphPin_85''
+[2016.09.05-00.47.17:819][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_7''
+[2016.09.05-00.47.17:819][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2360 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_CallFunction_2360
+[2016.09.05-00.47.17:819][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2360.EdGraphPin_87''
+[2016.09.05-00.47.17:819][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_1.EdGraphPin_69''
+[2016.09.05-00.47.17:819][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2402 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_CallFunction_2402
+[2016.09.05-00.47.17:819][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2402.EdGraphPin_33''
+[2016.09.05-00.47.17:819][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2402 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_CallFunction_2402
+[2016.09.05-00.47.17:819][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2402.EdGraphPin_29''
+[2016.09.05-00.47.17:819][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2361 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_CallFunction_2361
+[2016.09.05-00.47.17:819][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2361.EdGraphPin_91''
+[2016.09.05-00.47.17:819][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary.RenderToTextureFunctionLibrary:Array to HLSL Int Array.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_FunctionResult_1
+[2016.09.05-00.47.17:820][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionResult_1.EdGraphPin_20''
+[2016.09.05-00.47.17:820][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2402 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_CallFunction_2402
+[2016.09.05-00.47.17:820][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2402.EdGraphPin_30''
+[2016.09.05-00.47.17:820][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_FunctionResult /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary.RenderToTextureFunctionLibrary:Array to HLSL Int Array.K2Node_FunctionResult_1 or K2Node_FunctionResult /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_FunctionResult_1
+[2016.09.05-00.47.17:820][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionResult_1.EdGraphPin_19''
+[2016.09.05-00.47.17:820][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_2.EdGraphPin_72''
+[2016.09.05-00.47.17:820][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_8''
+[2016.09.05-00.47.17:820][949]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2402 or K2Node_CallFunction /Game/raiz/funciones/interfaces.interfaces:fnU_CrearInterfazGrafica.K2Node_CallFunction_2402
+[2016.09.05-00.47.17:820][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2402.EdGraphPin_35''
+[2016.09.05-00.47.17:821][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_9''
+[2016.09.05-00.47.17:821][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_FunctionEntry_65.EdGraphPin_9''
+[2016.09.05-00.47.17:821][949]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:Linke
