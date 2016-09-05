@@ -10,21 +10,20 @@ La idea es conquistar territorio enemigo en modo multijugador o de un juagdor. E
 
 ## Inicializar proyecto
 # Crear interfaz de usuario:
-1.*Menú principal
+1. *Menú principal
     1. *Un Jagador
         1. *Campaña
         2. *Batalla
-2.*Multijugador
+2. *Multijugador
     1. *Lan
     2. *Internet
-3.*Ajustes
+3. *Ajustes
     1. * Video
     2. * Sonido
     3. * Modo de juego
 # Raiz del proyecto:
-
-1.Content [dir]
-    1.Raiz [dir]
+1. Content [dir]
+    1. Raiz [dir]
         1. funcionesU [dir]
             1. interfaces [blupirnts fn> fn U]
         2. menuPrincipal [dir]
@@ -35,13 +34,13 @@ La idea es conquistar territorio enemigo en modo multijugador o de un juagdor. E
             5.Ajustes video [widget]
             6.Ajustes audio [widget]
             7.Ajustes modo de juego [widget]
-        3.objetos [dir]
+        3. objetos [dir]
             1.btnLink [widget]
             2.btnLink-Campaña [btnLink]
-        4.savegames [dir]
-        5.estructuras [dir]
+        4. savegames [dir]
+        5. estructuras [dir]
             1.savegame [estructura]
-        1.Savegames
+        1. Savegames
 
 Estructura de savegame en raiz/estructuras
 Savegames almacenados en objetos/savegames
