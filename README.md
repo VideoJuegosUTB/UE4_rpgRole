@@ -10,17 +10,18 @@ La idea es conquistar territorio enemigo en modo multijugador o de un juagdor. E
 Inicializar proyecto
 
 # Crear interfaz de usuario:
-1. *Menú principal
-    1. *Un Jagador
-        1. *Campaña
-        2. *Batalla
-2. *Multijugador
-    1. *Lan
-    2. *Internet
-3. *Ajustes
-    1. * Video
-    2. * Sonido
-    3. * Modo de juego
+1. *Seleccionar Personaje
+    1. *Menú principal
+        1. *Un Jagador
+            1. *Campaña
+            2. *Batalla
+    2. *Multijugador
+        1. *Lan
+        2. *Internet
+    3. *Ajustes
+        1. * Video
+        2. * Sonido
+        3. * Modo de juego
 
 # Raiz del proyecto:
 1. Content [dir]
