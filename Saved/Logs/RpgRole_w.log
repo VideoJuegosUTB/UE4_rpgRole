@@ -326,4 +326,29 @@ LogInit: Object subsystem initialized
 [2016.09.14-03.39.19:890][560]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/personajes12FDE93A4DABB98776377693AA9EC2D7.tmp' to 'J:/Praticas/RpgRole_w/Content/Raiz/saveGames/personajes.uasset'
 [2016.09.14-03.39.19:891][560]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/Raiz/saveGames/personajes.uasset
 [2016.09.14-03.40.39:419][781]LogClass:Warning: Type mismatch in partidas of SKEL_personajes_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
-[2016.09.14-03.41.40:098]
+[2016.09.14-03.41.40:098][222]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.020
+[2016.09.14-03.41.40:112][222]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Raiz/saveGames/personajes] ([1] browsable assets)...
+[2016.09.14-03.41.40:112][222]OBJ SavePackage: Finished generating thumbnails for package [/Game/Raiz/saveGames/personajes]
+[2016.09.14-03.41.40:112][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Raiz/saveGames/personajes" FILE="J:/Praticas/RpgRole_w/Saved/Autosaves/Game/Raiz/saveGames/personajes_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.09.14-03.41.40:116][222]LogSavePackage: Save=2.12ms
+[2016.09.14-03.41.40:116][222]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/personajes_Auto1909661ED4BB72B9ED19EE89DE7165E23.tmp' to 'J:/Praticas/RpgRole_w/Saved/Autosaves/Game/Raiz/saveGames/personajes_Auto1.uasset'
+[2016.09.14-03.41.40:117][222]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Saved/Autosaves/Game/Raiz/saveGames/personajes_Auto1.uasset
+[2016.09.14-03.41.40:117][222]LogFileHelpers: Auto-saving content packages took 0.005
+[2016.09.14-03.42.27:682][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Raiz/saveGames/personajes" FILE="J:/Praticas/RpgRole_w/Content/Raiz/saveGames/personajes.uasset" SILENT=true
+[2016.09.14-03.42.27:686][951]LogSavePackage: Save=2.22ms
+[2016.09.14-03.42.27:686][951]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/personajes85FCF76D4F46C891D1BE468716304DEB.tmp' to 'J:/Praticas/RpgRole_w/Content/Raiz/saveGames/personajes.uasset'
+[2016.09.14-03.42.27:695][951]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/Raiz/saveGames/personajes.uasset
+[2016.09.14-03.57.23:813][744]LogRenderer: Reallocating scene render targets to support 1208x720 (Frame:88420).
+[2016.09.14-03.57.46:770][452]LogMetaData: Removing '/Game/Raiz/actores/personaje_1.personaje_1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Raiz/actores/Personaje.PackageMetaData'
+[2016.09.14-03.57.46:770][452]LogMetaData: Removing '/Game/Raiz/actores/personaje_1.SKEL_personaje_1_C' ref from Metadata '/Game/Raiz/actores/Personaje.PackageMetaData'
+[2016.09.14-03.57.46:770][452]LogMetaData: Removing '/Game/Raiz/actores/personaje_1.personaje_1_C' ref from Metadata '/Game/Raiz/actores/Personaje.PackageMetaData'
+[2016.09.14-03.57.46:770][452]LogMetaData: Removing '/Game/Raiz/actores/personaje_1.personaje_1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Raiz/actores/Personaje.PackageMetaData'
+[2016.09.14-03.57.46:770][452]LogMetaData: Removing '/Game/Raiz/actores/personaje_1.personaje_1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Raiz/actores/Personaje.PackageMetaData'
+[2016.09.14-03.57.46:770][452]LogMetaData: Removing '/Game/Raiz/actores/personaje_1.personaje_1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Raiz/actores/Personaje.PackageMetaData'
+[2016.09.14-03.57.46:834][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Raiz/actores/personaje_1" FILE="J:/Praticas/RpgRole_w/Content/Raiz/actores/personaje_1.uasset" SILENT=true
+[2016.09.14-03.57.46:855][452]LogSavePackage: Save=21.05ms
+[2016.09.14-03.57.46:855][452]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/personaje_1DB85A16A41F61CCFEB3023B3EEB6D2A6.tmp' to 'J:/Praticas/RpgRole_w/Content/Raiz/actores/personaje_1.uasset'
+[2016.09.14-03.57.46:857][452]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/Raiz/actores/personaje_1.uasset
+[2016.09.14-04.00.31:623][378]LogMetaData: Removing '/Game/Raiz/menuPrincipal/editarPersonaje.SKEL_editarPersonaje_C' ref from Metadata '/Game/Raiz/menuPrincipal/NewWidgetBlueprint.PackageMetaData'
+[2016.09.14-04.00.31:623][378]LogMetaData: Removing '/Game/Raiz/menuPrincipal/editarPersonaje.editarPersonaje_C' ref from Metadata '/Game/Raiz/menuPrincipal/NewWidgetBlueprint.PackageMetaData'
+[2016.09.14-04.00.31:623][378]LogMetaData: Removing '/Game/Raiz/menuPrincipal/editarPersonaje.editarPersonaje:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Raiz/menuPrincipal/NewWidgetBl
