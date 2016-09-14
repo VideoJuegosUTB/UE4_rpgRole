@@ -304,4 +304,26 @@ LogInit: Object subsystem initialized
 [2016.09.14-03.33.31:316][205]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/Raiz/menuPrincipal/menuPrincipal.uasset
 [2016.09.14-03.33.32:073][274]BlueprintLog: New page: Compilar menuPrincipal
 [2016.09.14-03.33.32:288][274]BlueprintEditorCompileResults: Información [0486,79] Compile of menuPrincipal successful! [in 215 ms] (/Game/Raiz/menuPrincipal/menuPrincipal.menuPrincipal)
-[2016.09.14-03.33.33:739][411]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP
+[2016.09.14-03.33.33:739][411]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.14-03.33.33:739][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.14-03.33.33:739][411]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (13/09/2016 5:33:33 p. m.)
+[2016.09.14-03.33.33:739][411]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.14-03.33.33:757][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017992s)
+[2016.09.14-03.33.33:758][411]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.14-03.33.33:759][411]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2016.09.14-03.33.33:759][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019456s)
+[2016.09.14-03.33.33:784][411]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.14-03.33.33:789][411]LogInit: FAudioDevice initialized.
+[2016.09.14-03.33.33:834][411]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.14-03.33.33:838][411]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.13-22.33.33
+[2016.09.14-03.33.33:838][411]LogWorld: Bringing up level for play took: 0.002877
+[2016.09.14-03.33.33:845][411]PIE: Información Tiempo de inicio de la reproducción en el editor para  /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0,68
+[2016.09.14-03.33.33:845][411]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.14-03.33.44:260][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.14-03.33.44:293][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.14-03.39.19:885][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Raiz/saveGames/personajes" FILE="J:/Praticas/RpgRole_w/Content/Raiz/saveGames/personajes.uasset" SILENT=true
+[2016.09.14-03.39.19:890][560]LogSavePackage: Save=1.63ms
+[2016.09.14-03.39.19:890][560]LogSavePackage: Moving 'J:/Praticas/RpgRole_w/Saved/personajes12FDE93A4DABB98776377693AA9EC2D7.tmp' to 'J:/Praticas/RpgRole_w/Content/Raiz/saveGames/personajes.uasset'
+[2016.09.14-03.39.19:891][560]LogSavePackage:Display: Finished SavePackage J:/Praticas/RpgRole_w/Content/Raiz/saveGames/personajes.uasset
+[2016.09.14-03.40.39:419][781]LogClass:Warning: Type mismatch in partidas of SKEL_personajes_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2016.09.14-03.41.40:098]
